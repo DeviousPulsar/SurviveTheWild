@@ -9,6 +9,7 @@ if keyboard_check(vk_left)
 if keyboard_check(vk_right)
 {
         xsp = +1
+		
 }
 
 if (place_meeting(x, y, OFlag))
@@ -26,7 +27,6 @@ if place_meeting(x, y+1, Ground)
 }
 
 move_and_collide(xsp, ysp, Ground)
-
 
 
 

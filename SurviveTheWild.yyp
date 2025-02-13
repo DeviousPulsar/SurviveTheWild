@@ -40,6 +40,7 @@
     {"id":{"name":"PlayerTest","path":"objects/PlayerTest/PlayerTest.yy",},},
     {"id":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
     {"id":{"name":"Movement","path":"rooms/Movement/Movement.yy",},},
+    {"id":{"name":"BackGroundImage","path":"sprites/BackGroundImage/BackGroundImage.yy",},},
     {"id":{"name":"Grungle","path":"sprites/Grungle/Grungle.yy",},},
     {"id":{"name":"Spirt","path":"sprites/Spirt/Spirt.yy",},},
     {"id":{"name":"Test","path":"sprites/Test/Test.yy",},},
