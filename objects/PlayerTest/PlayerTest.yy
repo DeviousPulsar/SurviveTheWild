@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Test",
-    "path":"sprites/Test/Test.yy",
+    "name":"CatIdle",
+    "path":"sprites/CatIdle/CatIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
