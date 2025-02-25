@@ -1,9 +1,12 @@
 ysp += 0.1
 xsp = 0
 
+
+
 if keyboard_check(vk_left)
 {
         xsp = -1
+		image_xscale = -0.1;
 		sprite_index = CatMove;
 } else{
 		sprite_index = CatIdle;
@@ -12,6 +15,7 @@ if keyboard_check(vk_left)
 if keyboard_check(vk_right)
 {
         xsp = +1
+		image_xscale = +0.1;
 		sprite_index = CatMove;
 		
 } else{

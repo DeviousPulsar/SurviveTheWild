@@ -44,6 +44,7 @@
     {"id":{"name":"CatIdle","path":"sprites/CatIdle/CatIdle.yy",},},
     {"id":{"name":"CatMove","path":"sprites/CatMove/CatMove.yy",},},
     {"id":{"name":"Grungle","path":"sprites/Grungle/Grungle.yy",},},
+    {"id":{"name":"Left","path":"sprites/Left/Left.yy",},},
     {"id":{"name":"Spirt","path":"sprites/Spirt/Spirt.yy",},},
     {"id":{"name":"Test","path":"sprites/Test/Test.yy",},},
   ],
