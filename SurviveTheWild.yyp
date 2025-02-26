@@ -35,6 +35,7 @@
   "name":"SurviveTheWild",
   "resources":[
     {"id":{"name":"CombatTest","path":"objects/CombatTest/CombatTest.yy",},},
+    {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},},
     {"id":{"name":"Ground","path":"objects/Ground/Ground.yy",},},
     {"id":{"name":"OFlag","path":"objects/OFlag/OFlag.yy",},},
     {"id":{"name":"PlayerTest","path":"objects/PlayerTest/PlayerTest.yy",},},
@@ -46,6 +47,7 @@
     {"id":{"name":"Grungle","path":"sprites/Grungle/Grungle.yy",},},
     {"id":{"name":"Left","path":"sprites/Left/Left.yy",},},
     {"id":{"name":"Spirt","path":"sprites/Spirt/Spirt.yy",},},
+    {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},},
     {"id":{"name":"Test","path":"sprites/Test/Test.yy",},},
   ],
   "resourceType":"GMProject",

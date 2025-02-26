@@ -37,6 +37,20 @@ if place_meeting(x, y+1, Ground)
         }
 }
 
+if keyboard_check(vk_space){
+	
+	sprite_index = Test;
+	
+	
+var hit;	
+hit	= instance_place(x,y,Enemy);
+
+	if (hit != noone){
+		hit.enemyHealth = hit.enemyHealth -5;
+	
+	
+	}	
+}
 
 
 move_and_collide(xsp, ysp, Ground)
