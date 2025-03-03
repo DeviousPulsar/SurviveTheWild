@@ -2,7 +2,6 @@ move(delta_time/1000000);
 attack();
 
 function move (dt) {
-	
 	var control_mod = 1;
 	
 	if isGrounded {
@@ -55,9 +54,12 @@ function move (dt) {
 }
 
 function attack () {
-	var hit = instance_place(x,y,Enemy);
+	var _list = ds_list_create();
+	var _num = collision_ellipse_list(x-attack_range, y-attack_range, x+attack_range, y+attack_range, [objEnemy], false, false, _list, false);
 
-	if (hit != noone){
-		hit.enemyHealth = hit.enemyHealth -5;
+	if (_num > 0) {
+		for (var i = 0; i < _num; ++i;) {
+			_list[| i].hp -= 1;
+		}
 	}
 }

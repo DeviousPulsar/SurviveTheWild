@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"OFlag",
+  "%Name":"objFallthrough",
   "eventList":[],
   "managed":true,
-  "name":"OFlag",
+  "name":"objFallthrough",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Grungle",
-    "path":"sprites/Grungle/Grungle.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

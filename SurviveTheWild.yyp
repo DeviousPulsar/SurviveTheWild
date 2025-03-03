@@ -36,11 +36,11 @@
   "resources":[
     {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},},
     {"id":{"name":"Ground","path":"objects/Ground/Ground.yy",},},
+    {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},},
+    {"id":{"name":"objFallthrough","path":"objects/objFallthrough/objFallthrough.yy",},},
     {"id":{"name":"objKinematicParent","path":"objects/objKinematicParent/objKinematicParent.yy",},},
     {"id":{"name":"objStaticParent","path":"objects/objStaticParent/objStaticParent.yy",},},
-    {"id":{"name":"OFlag","path":"objects/OFlag/OFlag.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
-    {"id":{"name":"PlayerTest","path":"objects/PlayerTest/PlayerTest.yy",},},
     {"id":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
     {"id":{"name":"Movement","path":"rooms/Movement/Movement.yy",},},
     {"id":{"name":"BackGroundImage","path":"sprites/BackGroundImage/BackGroundImage.yy",},},

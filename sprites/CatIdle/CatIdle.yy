@@ -1,9 +1,9 @@
 {
   "$GMSprite":"",
   "%Name":"CatIdle",
-  "bboxMode":0,
+  "bboxMode":1,
   "bbox_bottom":213,
-  "bbox_left":6,
+  "bbox_left":0,
   "bbox_right":221,
   "bbox_top":0,
   "collisionKind":1,
