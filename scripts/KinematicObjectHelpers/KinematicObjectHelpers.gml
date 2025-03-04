@@ -1,4 +1,4 @@
-function GetCollisionMask(fallthrough) {
+function GetCollisionMask(fallthrough = false) {
 	return [objStaticParent, objKinematicParent, (fallthrough ? objStaticParent : objFallthrough)];
 }
 

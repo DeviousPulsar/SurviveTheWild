@@ -58,12 +58,14 @@ function move (dt) {
 }
 
 function attack () {
-	var _list = ds_list_create();
-	var _num = collision_ellipse_list(x-attack_range, y-attack_range, x+attack_range, y+attack_range, [objEnemy], false, false, _list, false);
+	if keyboard_check(vk_space) {
+		var _list = ds_list_create();
+		var _num = collision_ellipse_list(x-attack_range, y-attack_range, x+attack_range, y+attack_range, [objEnemy], false, false, _list, false);
 
-	if (_num > 0) {
-		for (var i = 0; i < _num; ++i;) {
-			_list[| i].hp -= 1;
+		if (_num > 0) {
+			for (var i = 0; i < _num; ++i;) {
+				_list[| i].hp -= 1;
+			}
 		}
 	}
 }
