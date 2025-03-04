@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"KinematicObjectHelpers",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"KinematicObjectHelpers",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

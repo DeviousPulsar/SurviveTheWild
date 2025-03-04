@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spirt",
-    "path":"sprites/Spirt/Spirt.yy",
+    "name":"Dirt",
+    "path":"sprites/Dirt/Dirt.yy",
   },
   "spriteMaskId":null,
   "visible":true,

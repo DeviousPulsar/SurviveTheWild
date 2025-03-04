@@ -3,6 +3,7 @@ attack();
 
 function move (dt) {
 	var control_mod = 1;
+	var isGrounded = IsObjectGrounded(self, fallthrough);
 	
 	if isGrounded {
 		ysp = 0;
@@ -11,7 +12,8 @@ function move (dt) {
 			jump_charge += dt*jump_charge_rate;
 			jump_charge = min(jump_charge, 1);
 		} else if keyboard_check_released(vk_up) {
-			ysp = -(jump_charge*additional_jump_speed + min_jump_speed);	
+			ysp = -max(jump_charge*additional_jump_speed - horisontal_jump_damp*abs(xsp), 0) - min_jump_speed;
+			xsp *= 1+jump_charge*horisontal_jump_damp;
 			jump_charge = 0;
 		}
 	} else {
@@ -28,29 +30,31 @@ function move (dt) {
 
 	if dir == 0 and xsp = 0 {
 		sprite_index = CatIdle;	
+	}  else if dir == 0 and abs(xsp) > control_mod*stop_friction*dt or abs(xsp) > max_hspeed {
+		if (abs(xsp) <= max_hspeed) sprite_index = CatIdle;	
+		xsp -= sign(xsp)*control_mod*stop_friction*dt;
 	} else if dir != 0 and (sign(xsp) == 0 or dir == sign(xsp)) {
 		xsp += dir*control_mod*acceleration*dt;
 		sprite_index = CatMove;
 	} else if dir == -sign(xsp) {
 		xsp += dir*control_mod*(acceleration+stop_friction)*dt;
 		sprite_index = CatMove;
-	} else if abs(xsp) > control_mod*stop_friction*dt  {
-		xsp -= sign(xsp)*control_mod*stop_friction*dt;
-		sprite_index = CatIdle;	
 	} else {
 		xsp = 0;
 		sprite_index = CatIdle;	
 	}
 
-	if abs(xsp) > max_hspeed {
-		xsp = sign(xsp)*max_hspeed;	
-	}
-
 	if abs(ysp) > max_vspeed {
 		ysp = sign(ysp)*max_vspeed;	
 	}
-
-	move_and_collide((jump_charge > 0 ? 0.2 : 1)*xsp*dt, ysp*dt, [objStaticParent, objKinematicParent]);
+	
+	if keyboard_check(vk_down) or ysp < 0 {
+		fallthrough = true;
+	} else if ysp > 0 {
+		fallthrough = false;
+	}
+ 
+	move_and_collide((jump_charge > 0 ? 0.2 : 1)*xsp*dt, ysp*dt, GetCollisionMask(fallthrough));
 }
 
 function attack () {
