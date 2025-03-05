@@ -3,7 +3,7 @@ attack();
 
 function move (dt) {
 	var control_mod = 1;
-	var isGrounded = IsObjectGrounded(self, fallthrough);
+	var isGrounded = ysp >= 0 && IsObjectGrounded(self, fallthrough);
 	
 	if isGrounded {
 		ysp = 0;

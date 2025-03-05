@@ -34,6 +34,7 @@
   },
   "name":"SurviveTheWild",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},},
     {"id":{"name":"Ground","path":"objects/Ground/Ground.yy",},},
     {"id":{"name":"GroundTrans","path":"objects/GroundTrans/GroundTrans.yy",},},
