@@ -61,6 +61,7 @@ function attack () {
 	if keyboard_check(vk_space) {
 		var _list = ds_list_create();
 		var _num = collision_ellipse_list(x-attack_range, y-attack_range, x+attack_range, y+attack_range, [objEnemy], false, false, _list, false);
+		sprite_index = CatAttack;
 
 		if (_num > 0) {
 			for (var i = 0; i < _num; ++i;) {
