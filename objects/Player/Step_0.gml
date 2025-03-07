@@ -1,6 +1,10 @@
 move(delta_time/1000000);
 attack();
 
+if (hitstun > 0) {
+	hitstun--;	
+}
+
 function move (dt) {
 	var control_mod = 1;
 	var isGrounded = ysp >= 0 && IsObjectGrounded(self, fallthrough);

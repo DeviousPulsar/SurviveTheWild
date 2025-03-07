@@ -35,7 +35,7 @@
   "name":"SurviveTheWild",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
-    {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},},
+    {"id":{"name":"Deer","path":"objects/Deer/Deer.yy",},},
     {"id":{"name":"Ground","path":"objects/Ground/Ground.yy",},},
     {"id":{"name":"GroundTrans","path":"objects/GroundTrans/GroundTrans.yy",},},
     {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},},
@@ -46,6 +46,7 @@
     {"id":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
     {"id":{"name":"Movement","path":"rooms/Movement/Movement.yy",},},
     {"id":{"name":"KinematicObjectHelpers","path":"scripts/KinematicObjectHelpers/KinematicObjectHelpers.yy",},},
+    {"id":{"name":"PlayerInteractionHelpers","path":"scripts/PlayerInteractionHelpers/PlayerInteractionHelpers.yy",},},
     {"id":{"name":"BackGroundImage","path":"sprites/BackGroundImage/BackGroundImage.yy",},},
     {"id":{"name":"Branch","path":"sprites/Branch/Branch.yy",},},
     {"id":{"name":"CatAttack","path":"sprites/CatAttack/CatAttack.yy",},},
