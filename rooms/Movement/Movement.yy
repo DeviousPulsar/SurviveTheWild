@@ -355,7 +355,7 @@
     {"name":"inst_2D82439F","path":"rooms/Movement/Movement.yy",},
     {"name":"inst_4C464F34","path":"rooms/Movement/Movement.yy",},
     {"name":"inst_31C296F0","path":"rooms/Movement/Movement.yy",},
-    {"name":"inst_60D61A1B","path":"rooms/Movement/Movement.yy",},
+    {"name":"inst_63F78C1E","path":"rooms/Movement/Movement.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -715,7 +715,7 @@
         {"$GMRInstance":"v1","%Name":"inst_2D82439F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D82439F","objectId":{"name":"Ground","path":"objects/Ground/Ground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":448.0,},
         {"$GMRInstance":"v1","%Name":"inst_4C464F34","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4C464F34","objectId":{"name":"Ground","path":"objects/Ground/Ground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":496.0,"y":448.0,},
         {"$GMRInstance":"v1","%Name":"inst_31C296F0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31C296F0","objectId":{"name":"Ground","path":"objects/Ground/Ground.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":448.0,},
-        {"$GMRInstance":"v1","%Name":"inst_60D61A1B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60D61A1B","objectId":{"name":"Deer","path":"objects/Deer/Deer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.1,"scaleY":0.1,"x":208.0,"y":432.0,},
+        {"$GMRInstance":"v1","%Name":"inst_63F78C1E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63F78C1E","objectId":{"name":"Squirrel","path":"objects/Squirrel/Squirrel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.05,"scaleY":0.05,"x":192.0,"y":432.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Backgrounds_1","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backgrounds_1","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"BackGroundImage","path":"sprites/BackGroundImage/BackGroundImage.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

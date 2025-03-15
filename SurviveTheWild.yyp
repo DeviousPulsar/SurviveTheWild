@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Deer","path":"objects/Deer/Deer.yy",},},
+    {"id":{"name":"Frog","path":"objects/Frog/Frog.yy",},},
     {"id":{"name":"Ground","path":"objects/Ground/Ground.yy",},},
     {"id":{"name":"GroundTrans","path":"objects/GroundTrans/GroundTrans.yy",},},
     {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},},
@@ -43,6 +44,7 @@
     {"id":{"name":"objKinematicParent","path":"objects/objKinematicParent/objKinematicParent.yy",},},
     {"id":{"name":"objStaticParent","path":"objects/objStaticParent/objStaticParent.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
+    {"id":{"name":"Squirrel","path":"objects/Squirrel/Squirrel.yy",},},
     {"id":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
     {"id":{"name":"Movement","path":"rooms/Movement/Movement.yy",},},
     {"id":{"name":"KinematicObjectHelpers","path":"scripts/KinematicObjectHelpers/KinematicObjectHelpers.yy",},},
