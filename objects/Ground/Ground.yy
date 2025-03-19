@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Dirt",
-    "path":"sprites/Dirt/Dirt.yy",
+    "name":"Log",
+    "path":"sprites/Log/Log.yy",
   },
   "spriteMaskId":null,
   "visible":true,

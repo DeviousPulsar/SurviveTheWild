@@ -1,5 +1,5 @@
 function GetCollisionMask(fallthrough = false) {
-	return [objStaticParent, objKinematicParent, (fallthrough ? objStaticParent : objFallthrough)];
+	return [layer_tilemap_get_id(layer_get_id("Ground")), objStaticParent, objKinematicParent, (fallthrough ? objStaticParent : objFallthrough)];
 }
 
 function IsObjectGrounded(obj, fallthrough = false) {

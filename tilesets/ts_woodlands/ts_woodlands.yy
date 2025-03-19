@@ -1,7 +1,12 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"ts_test",
-  "autoTileSets":[],
+  "%Name":"ts_woodlands",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        20,21,22,20,2,20,20,20,4,20,20,20,20,20,20,20,15,15,15,15,3,3,3,3,14,14,14,14,1,1,1,1,20,20,6,6,9,9,
+        8,8,10,10,19,15,1,14,20,
+      ],},
+  ],
   "macroPageTiles":{
     "SerialiseHeight":8,
     "SerialiseWidth":13,
@@ -11,7 +16,7 @@
     ],
     "TileDataFormat":1,
   },
-  "name":"ts_test",
+  "name":"ts_woodlands",
   "out_columns":5,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -25,7 +30,7 @@
     "name":"woodlands_spritesheet",
     "path":"sprites/woodlands_spritesheet/woodlands_spritesheet.yy",
   },
-  "spriteNoExport":true,
+  "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",
