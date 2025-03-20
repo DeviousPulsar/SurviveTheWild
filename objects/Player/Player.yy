@@ -52,8 +52,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"CatIdle",
-    "path":"sprites/CatIdle/CatIdle.yy",
+    "name":"IdleRight",
+    "path":"sprites/IdleRight/IdleRight.yy",
   },
   "spriteMaskId":null,
   "visible":true,

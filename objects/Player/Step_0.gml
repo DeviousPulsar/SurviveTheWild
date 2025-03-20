@@ -1,5 +1,6 @@
-move(delta_time/1000000);
-attack();
+var dt = delta_time/1000000;
+move(dt);
+attack(dt);
 
 if (hitstun > 0) {
 	hitstun--;	
@@ -33,19 +34,14 @@ function move (dt) {
 	}
 
 	if dir == 0 and xsp = 0 {
-		sprite_index = CatIdle;	
 	}  else if dir == 0 and abs(xsp) > control_mod*stop_friction*dt or abs(xsp) > max_hspeed {
-		if (abs(xsp) <= max_hspeed) sprite_index = CatIdle;	
 		xsp -= sign(xsp)*control_mod*stop_friction*dt;
 	} else if dir != 0 and (sign(xsp) == 0 or dir == sign(xsp)) {
 		xsp += dir*control_mod*acceleration*dt;
-		sprite_index = CatMove;
 	} else if dir == -sign(xsp) {
 		xsp += dir*control_mod*(acceleration+stop_friction)*dt;
-		sprite_index = CatMove;
 	} else {
 		xsp = 0;
-		sprite_index = CatIdle;	
 	}
 
 	if abs(ysp) > max_vspeed {
@@ -59,18 +55,24 @@ function move (dt) {
 	}
  
 	move_and_collide((jump_charge > 0 ? 0.2 : 1)*xsp*dt, ysp*dt, GetCollisionMask(fallthrough));
+
+	lastdir = dir != 0 ? dir: lastdir;
 }
 
-function attack () {
-	if keyboard_check(vk_space) {
+function attack (dt) {
+	if keyboard_check(vk_space) and attack_cooldown <= 0{
 		var _list = ds_list_create();
 		var _num = collision_ellipse_list(x-attack_range, y-attack_range, x+attack_range, y+attack_range, [objEnemy], false, false, _list, false);
-		sprite_index = CatAttack;
+		sprite_index = AttackRight;
 
 		if (_num > 0) {
 			for (var i = 0; i < _num; ++i;) {
 				_list[| i].hp -= 1;
 			}
 		}
+		
+		attack_cooldown = 0.5;
+	} else if attack_cooldown > 0{
+		attack_cooldown -= dt;
 	}
 }
