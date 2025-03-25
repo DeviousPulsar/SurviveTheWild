@@ -46,7 +46,11 @@
     {"id":{"name":"objStaticParent","path":"objects/objStaticParent/objStaticParent.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Squirrel","path":"objects/Squirrel/Squirrel.yy",},},
+    {"id":{"name":"BossArena","path":"rooms/BossArena/BossArena.yy",},},
+    {"id":{"name":"CatHollow","path":"rooms/CatHollow/CatHollow.yy",},},
     {"id":{"name":"DeepForest","path":"rooms/DeepForest/DeepForest.yy",},},
+    {"id":{"name":"Home","path":"rooms/Home/Home.yy",},},
+    {"id":{"name":"HuntingArena","path":"rooms/HuntingArena/HuntingArena.yy",},},
     {"id":{"name":"KinematicObjectHelpers","path":"scripts/KinematicObjectHelpers/KinematicObjectHelpers.yy",},},
     {"id":{"name":"PlayerInteractionHelpers","path":"scripts/PlayerInteractionHelpers/PlayerInteractionHelpers.yy",},},
     {"id":{"name":"AttackLeft","path":"sprites/AttackLeft/AttackLeft.yy",},},
@@ -66,7 +70,11 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Home","path":"rooms/Home/Home.yy",},},
+    {"roomId":{"name":"HuntingArena","path":"rooms/HuntingArena/HuntingArena.yy",},},
     {"roomId":{"name":"DeepForest","path":"rooms/DeepForest/DeepForest.yy",},},
+    {"roomId":{"name":"CatHollow","path":"rooms/CatHollow/CatHollow.yy",},},
+    {"roomId":{"name":"BossArena","path":"rooms/BossArena/BossArena.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
