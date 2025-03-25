@@ -9,7 +9,7 @@
   "managed":true,
   "name":"Squirrel",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"max_hp","path":"objects/objEnemy/objEnemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"max_hp","path":"objects/objEnemy/objEnemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"Objects",

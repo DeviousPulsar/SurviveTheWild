@@ -46,7 +46,7 @@
     {"id":{"name":"objStaticParent","path":"objects/objStaticParent/objStaticParent.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Squirrel","path":"objects/Squirrel/Squirrel.yy",},},
-    {"id":{"name":"Movement","path":"rooms/Movement/Movement.yy",},},
+    {"id":{"name":"DeepForest","path":"rooms/DeepForest/DeepForest.yy",},},
     {"id":{"name":"KinematicObjectHelpers","path":"scripts/KinematicObjectHelpers/KinematicObjectHelpers.yy",},},
     {"id":{"name":"PlayerInteractionHelpers","path":"scripts/PlayerInteractionHelpers/PlayerInteractionHelpers.yy",},},
     {"id":{"name":"AttackLeft","path":"sprites/AttackLeft/AttackLeft.yy",},},
@@ -66,7 +66,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Movement","path":"rooms/Movement/Movement.yy",},},
+    {"roomId":{"name":"DeepForest","path":"rooms/DeepForest/DeepForest.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
