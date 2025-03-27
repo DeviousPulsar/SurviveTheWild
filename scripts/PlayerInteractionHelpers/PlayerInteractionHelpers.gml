@@ -3,9 +3,10 @@ function PlayerSingleton() constructor {
 	
 	function Set(_id) {
 		if (playerID != undefined) {
-			instance_destroy(playerID);
+			instance_destroy(_id);
+		} else {
+			playerID = 	_id;
 		}
-		playerID = 	_id;
 	}
 	
 	function Get() {
