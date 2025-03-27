@@ -1,3 +1,3 @@
 function HomeActivateDeer(){
-	instance_activate_all();
+	instance_activate_object(Deer);
 }
