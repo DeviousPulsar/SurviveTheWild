@@ -7,12 +7,12 @@ lastdir = 0;
 attack_cooldown = 0;
 
 // Health system
-global.hp = 100;
-global.max_hp = 100;
+hp = 100;
+max_hp = 100;
 
 // Food system
-global.food = 100;
-global.max_food = 100;
+food = 100;
+max_food = 100;
 
 // Camera variables
 cam_x = camera_get_view_x(view_camera[0]);
