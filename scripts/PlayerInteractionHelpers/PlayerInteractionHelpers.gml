@@ -1,17 +1,15 @@
-function PlayerSingleton() constructor {
-	static playerID = undefined;
+global.playerID = noone;
 	
-	function Set(_id) {
-		if (playerID != undefined) {
-			instance_destroy(_id);
-		} else {
-			playerID = 	_id;
-		}
+function SetPlayer(_id) {
+	if global.playerID != noone {
+		instance_destroy(_id);
+	} else {
+		global.playerID = _id;
 	}
+}
 	
-	function Get() {
-		return playerID;	
-	}
+function GetPlayer() {
+	return global.playerID;	
 }
 
 function HitPlayer(to_hit, x_knockback, y_knockback, damage) {
