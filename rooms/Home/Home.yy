@@ -9,6 +9,9 @@
     {"name":"inst_7049BC2C_1","path":"rooms/Home/Home.yy",},
     {"name":"inst_216C44B6","path":"rooms/Home/Home.yy",},
     {"name":"inst_630FC243","path":"rooms/Home/Home.yy",},
+    {"name":"inst_7F6BFCD5","path":"rooms/Home/Home.yy",},
+    {"name":"inst_76D897E8","path":"rooms/Home/Home.yy",},
+    {"name":"inst_1F2FE880","path":"rooms/Home/Home.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -49,6 +52,13 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Teleport","path":"objects/Teleport/Teleport.yy",},"propertyId":{"name":"dest_x","path":"objects/Teleport/Teleport.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1104",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Teleport","path":"objects/Teleport/Teleport.yy",},"propertyId":{"name":"dest_y","path":"objects/Teleport/Teleport.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"384",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":480.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7F6BFCD5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F6BFCD5","objectId":{"name":"Trigger","path":"objects/Trigger/Trigger.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Trigger","path":"objects/Trigger/Trigger.yy",},"propertyId":{"name":"extents_y","path":"objects/Trigger/Trigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"48",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Trigger","path":"objects/Trigger/Trigger.yy",},"propertyId":{"name":"extents_x","path":"objects/Trigger/Trigger.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"16",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Trigger","path":"objects/Trigger/Trigger.yy",},"propertyId":{"name":"script","path":"objects/Trigger/Trigger.yy",},"resource":{"name":"HomeActivateDeer","path":"scripts/HomeActivateDeer/HomeActivateDeer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"HomeActivateDeer",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":592.0,"y":688.0,},
+        {"$GMRInstance":"v1","%Name":"inst_76D897E8","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76D897E8","objectId":{"name":"Deer","path":"objects/Deer/Deer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.1,"scaleY":0.1,"x":832.0,"y":656.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1F2FE880","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1F2FE880","objectId":{"name":"Deer","path":"objects/Deer/Deer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.1,"scaleY":0.1,"x":752.0,"y":688.0,},
       ],"layers":[],"name":"Actors","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Backgrounds","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backgrounds","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"BackGroundImage","path":"sprites/BackGroundImage/BackGroundImage.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
