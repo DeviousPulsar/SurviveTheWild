@@ -1,9 +1,20 @@
 var dt = delta_time/1000000;
+food(dt)
 move(dt);
 attack(dt);
 
 if (hitstun > 0) {
 	hitstun--;	
+}
+
+function food(dt) {
+	// Reduce food over time
+	global.food -= 0.05;  // Gradually reduce food each frame
+
+	// Stop food from going below 0
+	if global.food < 0 {
+	    global.food = 0;
+	}
 }
 
 function move (dt) {
