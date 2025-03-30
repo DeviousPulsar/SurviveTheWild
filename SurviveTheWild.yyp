@@ -37,6 +37,7 @@
     {"id":{"name":"CombatTest","path":"objects/CombatTest/CombatTest.yy",},},
     {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},},
     {"id":{"name":"Ground","path":"objects/Ground/Ground.yy",},},
+    {"id":{"name":"Object6","path":"objects/Object6/Object6.yy",},},
     {"id":{"name":"OFlag","path":"objects/OFlag/OFlag.yy",},},
     {"id":{"name":"PlayerTest","path":"objects/PlayerTest/PlayerTest.yy",},},
     {"id":{"name":"Combat","path":"rooms/Combat/Combat.yy",},},
