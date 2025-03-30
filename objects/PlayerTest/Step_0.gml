@@ -1,27 +1,16 @@
 // Gravity
 ysp += 0.1;
 xsp = 0;
-inventory = ds_list_create();
 
-// Reduce food over time
-global.food -= 0.05;
+// Reduce food over time (ensures food does not go below 0)
+global.food = max(global.food - 0.05, 0);
 
-// Stop food from going below 0
-if (global.food < 0) {
-    global.food = 0;
-}
-
-// Movement logic (left)
+// Movement logic
 if (keyboard_check(vk_left)) {
     xsp = -1;
     image_xscale = -0.1;
     sprite_index = CatMove;
-} else {
-    sprite_index = CatIdle;
-}
-
-// Movement logic (right)
-if (keyboard_check(vk_right)) {
+} else if (keyboard_check(vk_right)) {
     xsp = 1;
     image_xscale = 0.1;
     sprite_index = CatMove;
@@ -29,50 +18,52 @@ if (keyboard_check(vk_right)) {
     sprite_index = CatIdle;
 }
 
-// Go to the next room if touching flag
-if (place_meeting(x, y, OFlag)) {
-    room_goto_next();
-}
-
-// Jump and ground check
+// Jumping and ground check
 if (place_meeting(x, y + 1, Ground)) {
     ysp = 0;
-    if (keyboard_check(vk_up)) {
-        ysp = 0;
+    if (keyboard_check_pressed(vk_up)) {
+        ysp = -4; // Jump force
     }
 }
 
-// Attack logic with space key
+// Attack logic (space key)
 if (keyboard_check(vk_space)) {
     sprite_index = Test;
-
-    var hit;
-    hit = instance_place(x, y, Enemy);
-
+    var hit = instance_place(x, y, Enemy);
     if (hit != noone) {
         hit.enemyHealth -= 5;
     }
 }
 
-// Item pickup logic (check collision with items)
-var item = instance_place(x, y, Object6);  // Check if touching Object6
-
+// Item pickup logic (check collision with Object6)
+var item = instance_place(x, y, Object6);
 if (item != noone) {
-    // Add item to inventory
-    ds_list_add(inventory, item.object_index);
+    ds_list_add(inventory, item.object_index); // Store item type, not instance ID
 
-    // ✅ Restore health and food when picking up the item
-    global.hp += 10;  // Increase health (Adjust value if needed)
-    global.food += 15; // Increase food (Adjust value if needed)
-
-    // ✅ Prevent health and food from exceeding max values
-    if (global.hp > global.max_hp) global.hp = global.max_hp;
-    if (global.food > global.max_food) global.food = global.max_food;
-
-    // Destroy the item after picking it up
+    // Destroy the item after adding it to inventory
     with (item) {
         instance_destroy();
     }
+}
+
+// Use food from inventory with "E" key
+if (keyboard_check_pressed(ord("E"))) {
+    if (ds_list_size(inventory) > 0) { // Ensure inventory has items
+        var stored_item = ds_list_find_value(inventory, 0); // Get the first item
+
+        if (stored_item == Object6) { // Check if it's food
+            global.hp = min(global.hp + 10, global.max_hp);
+            global.food = min(global.food + 40, global.max_food);
+        }
+
+        // Remove the used item from the inventory
+        ds_list_delete(inventory, 0);
+    }
+}
+
+// Room transition when touching OFlag
+if (place_meeting(x, y, OFlag)) {
+    room_goto_next();
 }
 
 // Handle collision and movement

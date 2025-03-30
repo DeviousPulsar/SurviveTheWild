@@ -12,5 +12,5 @@ draw_healthbar(cam_x + 10, cam_y + 10, cam_x + 30, cam_y + 30, health_percentage
 // Smaller food bar (20x20), positioned below health bar
 draw_healthbar(cam_x + 10, cam_y + 35, cam_x + 30, cam_y + 55, food_percentage, c_black, c_red, c_gray, 0, true, true);
 
-// Optional: Draw the player sprite or object
+// Draw the player sprite
 draw_self();

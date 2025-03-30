@@ -1,19 +1,10 @@
-// Item pickup logic (check collision with items)
-var item = instance_place(x, y, Object6);  // Use the correct object name!
+// Check if the player is colliding with Object6
+var player = instance_place(x, y, PlayerTest);
 
-if (item != noone) {
-    ds_list_add(inventory, item.object_index);
+if (player != noone) {
+    // Add food item to player's inventory
+    ds_list_add(player.inventory, object_index); // Store object type
 
-    // Restore health and food
-    global.health += 10; 
-    global.food += 40;   
-
-    // Ensure they don't exceed max values
-    if (global.health > 100) global.health = 100;
-    if (global.food > 100) global.food = 100;
-
-    // Destroy the item after picking it up
-    with (item) {
-        instance_destroy();
-    }
+    // Destroy the item after adding it to inventory
+    instance_destroy();
 }
