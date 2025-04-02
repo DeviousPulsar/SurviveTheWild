@@ -46,8 +46,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite8",
-    "path":"sprites/Sprite8/Sprite8.yy",
+    "name":"FrogIdle",
+    "path":"sprites/FrogIdle/FrogIdle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"GroundTrans",
+  "%Name":"GroundTrans_1",
   "eventList":[],
   "managed":true,
-  "name":"GroundTrans",
+  "name":"GroundTrans_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Branch",
-    "path":"sprites/Branch/Branch.yy",
+    "name":"Branch1",
+    "path":"sprites/Branch1/Branch1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
