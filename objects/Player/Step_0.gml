@@ -1,5 +1,6 @@
 var dt = delta_time/1000000;
 hunger(dt)
+eat();
 move(dt);
 attack(dt);
 
@@ -14,7 +15,25 @@ function hunger(dt) {
 	// Stop food from going below 0
 	if food < 0 {
 	    food = 0;
+		hp -= food_drain*dt;
 	}
+}
+
+function eat() {
+	// Use food from inventory with "E" key
+	if (keyboard_check_pressed(ord("E"))) {
+	    if (ds_list_size(inventory) > 0) { // Ensure inventory has items
+	        var stored_item = ds_list_find_value(inventory, 0); // Get the first item
+
+	        //if (typeof(stored_item) == Food) { // Check if it's food
+	        hp = min(hp + 10*food/max_food, max_hp);
+	        food = min(food + 40, max_food);
+	        //}
+
+	        // Remove the used item from the inventory
+	        ds_list_delete(inventory, 0);
+	    }
+	}	
 }
 
 function move (dt) {

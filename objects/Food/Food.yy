@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Object6",
+  "%Name":"Food",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object6",
+  "name":"Food",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Grungle",
-    "path":"sprites/Grungle/Grungle.yy",
+    "name":"Drumstick",
+    "path":"sprites/Drumstick/Drumstick.yy",
   },
   "spriteMaskId":null,
   "visible":true,

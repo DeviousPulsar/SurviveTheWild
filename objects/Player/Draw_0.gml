@@ -34,8 +34,8 @@ draw_healthbar(cam_x + 10, cam_y + 10, cam_x + 50, cam_y + 16, health_percentage
 draw_healthbar(cam_x + 10, cam_y + 18, cam_x + 45, cam_y + 22, food_percentage, c_black, c_red, c_gray, 0, true, true);
 
 // Draw inventory items below the food bar
-var item_x = cam_x + 10; // Starting X position
-var item_y = cam_y + 60; // Position below the food bar
+var item_x = cam_x + 18; // Starting X position
+var item_y = cam_y + 40; // Position below the food bar
 var item_spacing = 22; // Space between items
 
 for (var i = 0; i < ds_list_size(inventory); i++) {
