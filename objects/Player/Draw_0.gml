@@ -1,4 +1,4 @@
-// Handle Character Animation
+// Handle character animation
 if attack_cooldown > 0 and (xsp > 0 or lastdir >= 0) {
 	if sprite_index != AttackRight {
 		sprite_index = AttackRight;	
@@ -33,4 +33,17 @@ draw_healthbar(cam_x + 10, cam_y + 10, cam_x + 50, cam_y + 16, health_percentage
 // Smaller food bar (35x5), positioned below health bar
 draw_healthbar(cam_x + 10, cam_y + 18, cam_x + 45, cam_y + 22, food_percentage, c_black, c_red, c_gray, 0, true, true);
 
+// Draw inventory items below the food bar
+var item_x = cam_x + 10; // Starting X position
+var item_y = cam_y + 60; // Position below the food bar
+var item_spacing = 22; // Space between items
+
+for (var i = 0; i < ds_list_size(inventory); i++) {
+    var item_type = ds_list_find_value(inventory, i);
+
+    // Draw the item sprite
+    draw_sprite(item_type.sprite_index, 0, item_x + (i * item_spacing), item_y);
+}
+
+// Draw the player sprite
 draw_self();

@@ -59,6 +59,7 @@
     {"id":{"name":"PlayerInteractionHelpers","path":"scripts/PlayerInteractionHelpers/PlayerInteractionHelpers.yy",},},
     {"id":{"name":"AttackLeft","path":"sprites/AttackLeft/AttackLeft.yy",},},
     {"id":{"name":"AttackRight","path":"sprites/AttackRight/AttackRight.yy",},},
+    {"id":{"name":"Object6","path":"objects/Object6/Object6.yy",},},
     {"id":{"name":"BackGroundImage","path":"sprites/BackGroundImage/BackGroundImage.yy",},},
     {"id":{"name":"Branch","path":"sprites/Branch/Branch.yy",},},
     {"id":{"name":"IdleLeft","path":"sprites/IdleLeft/IdleLeft.yy",},},

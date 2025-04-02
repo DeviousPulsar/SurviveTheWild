@@ -1,3 +1,4 @@
+// Movement varibles
 xsp = 0;
 ysp = 0;
 jump_charge = 0;
@@ -18,6 +19,11 @@ max_food = 100;
 cam_x = camera_get_view_x(view_camera[0]);
 cam_y = camera_get_view_y(view_camera[0]);
 
+// Initialize player singleton
 SetPlayer(self);
 
+// Create inventory list (only once)
+inventory = ds_list_create();
+
+// Create charge indicator
 instance_create_layer(x, y, "Actors", ChargeInfo);
