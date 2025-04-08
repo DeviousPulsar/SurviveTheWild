@@ -14,6 +14,6 @@ if charge == 0 {
 	image_index = min(floor(charge/0.25), 4)
 }
 
-show_debug_message(
+/*show_debug_message(
 	string("Charge info: visible={0}, pos=({1},{2}), rotation={5}, charge={3}, image_index={4}", 
-	visible, x, y, charge, image_index, image_angle));
+	visible, x, y, charge, image_index, image_angle));*/

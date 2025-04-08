@@ -1,3 +1,5 @@
+depth = -1000;
+
 player = GetPlayer(); 
 if player == noone {
 	instance_destroy();	
