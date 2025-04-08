@@ -13,6 +13,7 @@
     {"name":"inst_76D897E8","path":"rooms/Home/Home.yy",},
     {"name":"inst_1F2FE880","path":"rooms/Home/Home.yy",},
     {"name":"inst_46E012E5","path":"rooms/Home/Home.yy",},
+    {"name":"inst_12747170","path":"rooms/Home/Home.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -39,7 +40,8 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":592.0,"y":688.0,},
         {"$GMRInstance":"v1","%Name":"inst_76D897E8","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76D897E8","objectId":{"name":"Deer","path":"objects/Deer/Deer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.1,"scaleY":0.1,"x":688.0,"y":704.0,},
         {"$GMRInstance":"v1","%Name":"inst_1F2FE880","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1F2FE880","objectId":{"name":"Deer","path":"objects/Deer/Deer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.1,"scaleY":0.1,"x":768.0,"y":704.0,},
-        {"$GMRInstance":"v1","%Name":"inst_46E012E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_46E012E5","objectId":{"name":"Squirrel","path":"objects/Squirrel/Squirrel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":896.0,"y":672.0,},
+        {"$GMRInstance":"v1","%Name":"inst_46E012E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_46E012E5","objectId":{"name":"Squirrel","path":"objects/Squirrel/Squirrel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":1136.0,"y":672.0,},
+        {"$GMRInstance":"v1","%Name":"inst_12747170","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_12747170","objectId":{"name":"obj_PauseController","path":"objects/obj_PauseController/obj_PauseController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":448.0,},
       ],"layers":[],"name":"Actors","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_6CB43A02","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6CB43A02","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"spriteId":{"name":"TreeBG2","path":"sprites/TreeBG2/TreeBG2.yy",},"x":736.0,"y":704.0,},
