@@ -41,7 +41,11 @@ function move (dt) {
 	var isGrounded = ysp >= 0 && IsObjectGrounded(self, fallthrough);
 	
 	if isGrounded {
-		ysp = 0;
+		if place_meeting(x, y, objFallthrough) {
+			ysp = -50;
+		} else {
+			ysp = 0;
+		}
 	
 		if keyboard_check(vk_up) and jump_charge < 1 {
 			jump_charge += dt*jump_charge_rate;

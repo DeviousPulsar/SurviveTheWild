@@ -1,4 +1,4 @@
-var hit = collision_circle(x, y+12, 12, [objEnemy], false, true);
+var hit = collision_rectangle(x-12, y-24, x+12, y, [objEnemy], false, true);
 if hit != noone {
 	instance_destroy(hit);
 }

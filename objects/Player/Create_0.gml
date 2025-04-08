@@ -1,5 +1,5 @@
 // Rendering information
-depth = -1000;
+depth = -1;
 
 // Movement varibles
 xsp = 0;

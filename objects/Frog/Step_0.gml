@@ -1,9 +1,14 @@
 var dt = delta_time/1000000;
 
 if IsObjectGrounded(self) {
-	var hit = collision_ellipse(x-detect_range, y-detect_range, x+detect_range, y+detect_range, [Player], false, true);
+	var hit = collision_circle(x, y - image_yscale*16, detect_range, [Player], false, true);
 	if hit != noone {
-		jump(-sign(hit.x - x)*flee_dist, 1);
+		var flee_dest = -sign(hit.x - x)*flee_dist;
+		hit = collision_line(x, y - image_yscale*48, x + flee_dest, y - image_yscale*48, GetCollisionMask(), false, true);
+		if hit != noone {
+			flee_dest *= -1;
+		}
+		jump(flee_dest, 1);
 		cooldown = wander_cooldown;
 	} else if cooldown > 0 {
 		if abs(xsp*dt) > stop_friction {
