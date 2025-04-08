@@ -32,6 +32,18 @@ draw_healthbar(cam_x + 10, cam_y + 10, cam_x + 50, cam_y + 16, health_percentage
 
 // Smaller food bar (35x5), positioned below health bar
 draw_healthbar(cam_x + 10, cam_y + 18, cam_x + 45, cam_y + 22, food_percentage, c_black, c_red, c_gray, 0, true, true);
+// Labels for the bars
+draw_set_color(c_white);
+draw_set_halign(fa_left);
+draw_set_valign(fa_middle);
+
+// Health text
+draw_text(cam_x + 55, cam_y + 13, "Health");
+
+// Food text
+draw_text(cam_x + 50, cam_y + 20, "Food");
+
+
 
 // Draw inventory items below the food bar
 var item_x = cam_x + 18; // Starting X position

@@ -45,6 +45,7 @@
     {"id":{"name":"Ground","path":"objects/Ground/Ground.yy",},},
     {"id":{"name":"GroundTrans_1","path":"objects/GroundTrans_1/GroundTrans_1.yy",},},
     {"id":{"name":"GroundTrans_2","path":"objects/GroundTrans_2/GroundTrans_2.yy",},},
+    {"id":{"name":"obj_GameOverController","path":"objects/obj_GameOverController/obj_GameOverController.yy",},},
     {"id":{"name":"obj_MainMenuController","path":"objects/obj_MainMenuController/obj_MainMenuController.yy",},},
     {"id":{"name":"obj_PauseController","path":"objects/obj_PauseController/obj_PauseController.yy",},},
     {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},},
