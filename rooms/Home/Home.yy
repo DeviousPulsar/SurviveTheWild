@@ -15,6 +15,7 @@
     {"name":"inst_46E012E5","path":"rooms/Home/Home.yy",},
     {"name":"inst_12747170","path":"rooms/Home/Home.yy",},
     {"name":"inst_47DD63AA","path":"rooms/Home/Home.yy",},
+    {"name":"inst_7F6E0595","path":"rooms/Home/Home.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -44,6 +45,7 @@
         {"$GMRInstance":"v1","%Name":"inst_46E012E5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_46E012E5","objectId":{"name":"Squirrel","path":"objects/Squirrel/Squirrel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":1136.0,"y":672.0,},
         {"$GMRInstance":"v1","%Name":"inst_12747170","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_12747170","objectId":{"name":"obj_PauseController","path":"objects/obj_PauseController/obj_PauseController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":448.0,},
         {"$GMRInstance":"v1","%Name":"inst_47DD63AA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47DD63AA","objectId":{"name":"obj_GameOverController","path":"objects/obj_GameOverController/obj_GameOverController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":608.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7F6E0595","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F6E0595","objectId":{"name":"TextBoxMove","path":"objects/TextBoxMove/TextBoxMove.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1136.0,"y":608.0,},
       ],"layers":[],"name":"Actors","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_6CB43A02","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6CB43A02","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"spriteId":{"name":"TreeBG2","path":"sprites/TreeBG2/TreeBG2.yy",},"x":736.0,"y":704.0,},

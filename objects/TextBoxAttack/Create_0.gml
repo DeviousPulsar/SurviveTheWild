@@ -1,0 +1,1 @@
+text ="You can attack with space bar and pick up meat. Use meat by pressing E."

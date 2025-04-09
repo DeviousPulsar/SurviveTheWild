@@ -1,0 +1,1 @@
+text ="You can jump and charge it by holding up arrow. You move slower while charging the jump."
