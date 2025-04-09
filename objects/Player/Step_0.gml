@@ -39,13 +39,19 @@ function eat() {
 function move (dt) {
 	var control_mod = 1;
 	var isGrounded = ysp >= 0 && IsObjectGrounded(self, fallthrough);
+	var hit = collision_rectangle(x-18, y-34, x+18, y, objFallthrough, false, true);
 	
-	if isGrounded {
-		if place_meeting(x, y, objFallthrough) {
-			ysp = -50;
-		} else {
-			ysp = 0;
-		}
+	if keyboard_check(vk_down) or ysp < 0 {
+		fallthrough = true;
+	} else if ysp > 0 {
+		fallthrough = false;
+	}
+	
+	if hit != noone and !fallthrough {
+		ysp = (hit.y - y - 0.5*gravity*power(0.5, 2))/0.5;
+		jump_charge = 0;
+	} else if isGrounded or (hit != noone and !fallthrough) {
+		ysp = 0;
 	
 		if keyboard_check(vk_up) and jump_charge < 1 {
 			jump_charge += dt*jump_charge_rate;
@@ -58,6 +64,7 @@ function move (dt) {
 	} else {
 		ysp += gravity*dt;
 		control_mod = air_control;
+		jump_charge = 0;
 	}
 
 	var dir = 0;
@@ -80,12 +87,6 @@ function move (dt) {
 
 	if abs(ysp) > max_vspeed {
 		ysp = sign(ysp)*max_vspeed;	
-	}
-	
-	if keyboard_check(vk_down) or ysp < 0 {
-		fallthrough = true;
-	} else if ysp > 0 {
-		fallthrough = false;
 	}
  
 	move_and_collide((jump_charge > 0 ? 0.2 : 1)*xsp*dt, ysp*dt, GetCollisionMask(fallthrough));

@@ -38,6 +38,7 @@
   "name":"SurviveTheWild",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"Bird","path":"objects/Bird/Bird.yy",},},
     {"id":{"name":"ChargeInfo","path":"objects/ChargeInfo/ChargeInfo.yy",},},
     {"id":{"name":"Deer","path":"objects/Deer/Deer.yy",},},
     {"id":{"name":"Food","path":"objects/Food/Food.yy",},},
@@ -65,6 +66,8 @@
     {"id":{"name":"AttackLeft","path":"sprites/AttackLeft/AttackLeft.yy",},},
     {"id":{"name":"AttackRight","path":"sprites/AttackRight/AttackRight.yy",},},
     {"id":{"name":"BackGroundImage","path":"sprites/BackGroundImage/BackGroundImage.yy",},},
+    {"id":{"name":"BirdFly","path":"sprites/BirdFly/BirdFly.yy",},},
+    {"id":{"name":"BirdIdle","path":"sprites/BirdIdle/BirdIdle.yy",},},
     {"id":{"name":"Branch1","path":"sprites/Branch1/Branch1.yy",},},
     {"id":{"name":"Branch2","path":"sprites/Branch2/Branch2.yy",},},
     {"id":{"name":"Drumstick","path":"sprites/Drumstick/Drumstick.yy",},},
