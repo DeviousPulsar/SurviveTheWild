@@ -77,6 +77,7 @@
     {"id":{"name":"FrogJump","path":"sprites/FrogJump/FrogJump.yy",},},
     {"id":{"name":"GenBG","path":"sprites/GenBG/GenBG.yy",},},
     {"id":{"name":"Hole","path":"sprites/Hole/Hole.yy",},},
+    {"id":{"name":"HomeBG","path":"sprites/HomeBG/HomeBG.yy",},},
     {"id":{"name":"HuntingAreaBG","path":"sprites/HuntingAreaBG/HuntingAreaBG.yy",},},
     {"id":{"name":"IdleLeft","path":"sprites/IdleLeft/IdleLeft.yy",},},
     {"id":{"name":"IdleRight","path":"sprites/IdleRight/IdleRight.yy",},},
