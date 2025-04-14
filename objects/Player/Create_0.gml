@@ -15,7 +15,7 @@ max_hp = 100;
 food = 100;
 max_food = 100;
 
-
+freeze = false;
 
 
 // Camera variables

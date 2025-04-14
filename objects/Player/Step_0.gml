@@ -4,6 +4,8 @@ eat();
 move(dt);
 attack(dt);
 
+	
+
 if (hitstun > 0) {
 	hitstun--;	
 }
@@ -37,6 +39,8 @@ function eat() {
 }
 
 function move (dt) {
+	if (freeze != true){
+
 	var control_mod = 1;
 	var isGrounded = ysp >= 0 && IsObjectGrounded(self, fallthrough);
 	
@@ -87,6 +91,7 @@ function move (dt) {
 	move_and_collide((jump_charge > 0 ? 0.2 : 1)*xsp*dt, ysp*dt, GetCollisionMask(fallthrough));
 
 	lastdir = dir != 0 ? dir: lastdir;
+	}
 }
 
 
