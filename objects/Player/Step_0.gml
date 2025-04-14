@@ -89,6 +89,8 @@ function move (dt) {
 	lastdir = dir != 0 ? dir: lastdir;
 }
 
+
+
 function attack (dt) {
 	if keyboard_check(vk_space) and attack_cooldown <= 0{
 		var _list = ds_list_create();

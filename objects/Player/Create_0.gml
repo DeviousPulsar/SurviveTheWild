@@ -15,6 +15,9 @@ max_hp = 100;
 food = 100;
 max_food = 100;
 
+
+
+
 // Camera variables
 cam_x = camera_get_view_x(view_camera[0]);
 cam_y = camera_get_view_y(view_camera[0]);
@@ -27,3 +30,7 @@ inventory = ds_list_create();
 
 // Create charge indicator
 instance_create_layer(x, y, "Actors", ChargeInfo);
+// Player - Room Start Event
+
+
+ 

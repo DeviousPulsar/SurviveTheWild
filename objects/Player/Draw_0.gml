@@ -44,7 +44,6 @@ draw_text(cam_x + 55, cam_y + 13, "Health");
 draw_text(cam_x + 50, cam_y + 20, "Food");
 
 
-
 // Draw inventory items below the food bar
 var item_x = cam_x + 18; // Starting X position
 var item_y = cam_y + 40; // Position below the food bar
