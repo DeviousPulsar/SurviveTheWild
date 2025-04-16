@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Branch1",
-    "path":"sprites/Branch1/Branch1.yy",
+    "name":"br2",
+    "path":"sprites/br2/br2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
