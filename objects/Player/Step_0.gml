@@ -4,6 +4,8 @@ eat();
 move(dt);
 attack(dt);
 
+	
+
 if (hitstun > 0) {
 	hitstun--;	
 }
@@ -37,6 +39,8 @@ function eat() {
 }
 
 function move (dt) {
+	if (freeze != true){
+
 	var control_mod = 1;
 	var isGrounded = ysp >= 0 && IsObjectGrounded(self, fallthrough);
 	var hit = collision_rectangle(x-18, y-34, x+18, y, objFallthrough, false, true);
@@ -92,7 +96,10 @@ function move (dt) {
 	move_and_collide((jump_charge > 0 ? 0.2 : 1)*xsp*dt, ysp*dt, GetCollisionMask(fallthrough));
 
 	lastdir = dir != 0 ? dir: lastdir;
+	}
 }
+
+
 
 function attack (dt) {
 	if keyboard_check(vk_space) and attack_cooldown <= 0{
