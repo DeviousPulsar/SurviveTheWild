@@ -1,1 +1,1 @@
-text = "Welcome to the game! Use arrow keys to move";
+text = "Use arrow keys to move";

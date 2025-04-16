@@ -1,13 +1,13 @@
-var dt = delta_time/1000000;
-hunger(dt)
-eat();
-move(dt);
-attack(dt);
+if not freeze {
+	var dt = delta_time/1000000;
+	hunger(dt)
+	eat();
+	move(dt);
+	attack(dt);	
 
-	
-
-if (hitstun > 0) {
-	hitstun--;	
+	if (hitstun > 0) {
+		hitstun--;	
+	}
 }
 
 function hunger(dt) {

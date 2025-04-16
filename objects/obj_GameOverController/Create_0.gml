@@ -1,1 +1,1 @@
-is_game_over = false;
+global.gameover = false;
