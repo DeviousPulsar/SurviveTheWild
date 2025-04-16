@@ -16,6 +16,8 @@
     {"name":"inst_4B869F4A","path":"rooms/BossArena/BossArena.yy",},
     {"name":"inst_3B8351C1","path":"rooms/BossArena/BossArena.yy",},
     {"name":"inst_511C69A0","path":"rooms/BossArena/BossArena.yy",},
+    {"name":"inst_6C17986D","path":"rooms/BossArena/BossArena.yy",},
+    {"name":"inst_458E485F","path":"rooms/BossArena/BossArena.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -48,6 +50,12 @@
         {"$GMRInstance":"v1","%Name":"inst_36E4D4A3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_36E4D4A3","objectId":{"name":"GroundTrans_1","path":"objects/GroundTrans_1/GroundTrans_1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":272.0,"y":528.0,},
         {"$GMRInstance":"v1","%Name":"inst_4B869F4A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B869F4A","objectId":{"name":"GroundTrans_2","path":"objects/GroundTrans_2/GroundTrans_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":464.0,"y":480.0,},
         {"$GMRInstance":"v1","%Name":"inst_3B8351C1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B8351C1","objectId":{"name":"GroundTrans_2","path":"objects/GroundTrans_2/GroundTrans_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":432.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6C17986D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6C17986D","objectId":{"name":"Deer","path":"objects/Deer/Deer.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Deer","path":"objects/Deer/Deer.yy",},"propertyId":{"name":"activated","path":"objects/Deer/Deer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":720.0,"y":704.0,},
+        {"$GMRInstance":"v1","%Name":"inst_458E485F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_458E485F","objectId":{"name":"Deer","path":"objects/Deer/Deer.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Deer","path":"objects/Deer/Deer.yy",},"propertyId":{"name":"activated","path":"objects/Deer/Deer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":496.0,"y":736.0,},
       ],"layers":[],"name":"Actors","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Ground","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Ground","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":36,"TileCompressedData":[
           -6,0,1,-2147483648,-5,0,-7,-2147483648,1,0,-35,-2147483648,-3,0,-5,-2147483648,1,0,-27,-2147483648,-3,

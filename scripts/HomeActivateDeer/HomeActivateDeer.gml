@@ -1,3 +1,5 @@
 function HomeActivateDeer(){
-	instance_activate_object(Deer);
+	for (var i = 0; i < instance_number(Deer); ++i;) {
+	    instance_find(Deer, i).activated = true;
+	}
 }
