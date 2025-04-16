@@ -79,6 +79,8 @@
     {"id":{"name":"Branch1","path":"sprites/Branch1/Branch1.yy",},},
     {"id":{"name":"Branch2","path":"sprites/Branch2/Branch2.yy",},},
     {"id":{"name":"CatHollowBG","path":"sprites/CatHollowBG/CatHollowBG.yy",},},
+    {"id":{"name":"DeerAttack","path":"sprites/DeerAttack/DeerAttack.yy",},},
+    {"id":{"name":"DeerIdle","path":"sprites/DeerIdle/DeerIdle.yy",},},
     {"id":{"name":"DeerMove","path":"sprites/DeerMove/DeerMove.yy",},},
     {"id":{"name":"Drumstick","path":"sprites/Drumstick/Drumstick.yy",},},
     {"id":{"name":"FrogIdle","path":"sprites/FrogIdle/FrogIdle.yy",},},

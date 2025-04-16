@@ -1,13 +1,22 @@
 if(activated) {
-	if abs(xsp) == 0 {
-		sprite_index = FrogIdle;	
+	if dashing {
+		if sprite_index != DeerAttack {
+			image_index = 0;
+		}
+		sprite_index = DeerAttack;
+	} else if abs(xsp) == 0 {
+		sprite_index = DeerIdle;	
 	} else {
 		if sprite_index != DeerMove {
 			image_index = 0;
 		}
 		sprite_index = DeerMove;
-		image_xscale = sign(xsp)*abs(image_xscale);
 	}
+	
+	if sign(xsp) != 0 {
+		lastdir = sign(xsp);
+	}
+	image_xscale = lastdir*abs(image_xscale);
 
 	draw_self();	
 }

@@ -12,6 +12,10 @@ function GetPlayer() {
 	return global.playerID;	
 }
 
+function ResetPlayer() {
+	global.playerID = noone;	
+}
+
 function HitPlayer(to_hit, x_knockback, y_knockback, damage) {
 	if (to_hit.object_index != Player) { return; }
 	if (to_hit.hitstun > 0) { return; }
